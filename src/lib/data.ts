@@ -11,51 +11,51 @@ export interface Playlist {
 export const playlists: Playlist[] = [
   {
     id: "1",
-    title: "Electronic Party",
+    title: "Introducción a Copilot para Microsoft 365",
     color: colors.teal,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776174/spotify-astro/playlist_1_yci5uf.jpg",
-    artists: ["Avicii", "Alok"],
+      "https://learn.microsoft.com/es-es/training/achievements/get-started-with-microsoft-365-copilot.svg",
+    artists: ["Ruta de aprendizaje", "3 Módulos"],
   },
   {
     id: "2",
-    title: "Trance",
+    title: "IA para educadores",
     color: colors.green,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776174/spotify-astro/playlist_2_f9ymlx.jpg",
-    artists: ["Tiesto", "Armin Van Buuren"],
+      "https://learn.microsoft.com/es-es/training/achievements/ai-education.svg",
+    artists: ["Ruta de aprendizaje", "3 Módulos"],
   },
   {
     id: "3",
-    title: "Trap Vibes",
+    title: "Introducción a Microsoft 365 y Windows",
     color: colors.rose,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776175/spotify-astro/playlist_3_grshca.jpg",
-    artists: ["Post Malone", "Travis Scott", "21 savage"],
+      "https://learn.microsoft.com/es-es/training/achievements/get-started-office-365-windows.svg",
+    artists: ["Ruta de aprendizaje", " 6 Módulos"],
   },
   {
     id: "4",
-    title: "Beatles Classics",
+    title: "Introducción a Power BI",
     color: colors.red,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776175/spotify-astro/playlist_4_ap5xnb.jpg",
-    artists: ["The Beatles"],
+      "https://learn.microsoft.com/es-es/training/achievements/get-started-power-bi.svg",
+    artists: ["Ruta de aprendizaje","3 Módulos"],
   },
   {
     id: "5",
-    title: "Electronic Dance",
+    title: "Introducción a OneNote",
     color: colors.pink,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776175/spotify-astro/playlist_5_erjyb7.jpg",
-    artists: ["Deadmau5"],
+      "https://learn.microsoft.com/en-us/training/achievements/get-started-with-onenote.svg",
+    artists: ["Módulo","6 Unidades"],
   },
   {
     id: "6",
-    title: "Cow songs",
+    title: "Microsoft Forms: Creando evaluaciones auténticas",
     color: colors.gray,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776474/spotify-astro/R-15112137-1586815179-1911_fsyl58.jpg",
-    artists: ["Saint Hilda", "Canada Buffalo"],
+      "https://learn.microsoft.com/en-us/learn/achievements/forms-creando-evaluaciones-autenticas.svg",
+    artists: ["Módulo", "6 Unidades"],
   },
 ];
 
@@ -89,7 +89,7 @@ interface Song {
 }
 const songScale = "w_40,h_40,c_scale";
 export const songs: Song[] = [
-  {
+  /*{
     id: "1",
     title: "The Nights",
     image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776175/spotify-astro/song_1_qitfwl.jpg`,
@@ -168,5 +168,5 @@ export const songs: Song[] = [
     artists: ["Imagine Dragons"],
     album: "Night Visions",
     duration: "3:07",
-  },
+  },*/
 ];
